@@ -26,7 +26,7 @@
         <div class="relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
             <div class="container text-center dark:text-white">
                 <h3>Marcus At Home</h3>
-                <img src="https://www.myinstants.com/media/instants_images/i27m_gonna_wreck_it_21.gif" alt="">
+                <img src="https://www.myinstants.com/media/instants_images/i27m_gonna_wreck_it_21.gif" alt="" style="max-width: 200px">
             </div>
         </div>
     </body>
