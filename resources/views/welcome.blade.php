@@ -17,14 +17,15 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                background-color: #000;
             }
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
             <div class="container text-center dark:text-white">
                 <h3>Marcus At Home</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" alt="">
+                <img src="https://www.myinstants.com/media/instants_images/i27m_gonna_wreck_it_21.gif" alt="">
             </div>
         </div>
     </body>
