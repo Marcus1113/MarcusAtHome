@@ -19,6 +19,15 @@
                 <div class="swiper-slide">
                     <img src="https://wallpaperaccess.com/full/109672.jpg" alt="">
                 </div>
+                <div class="swiper-slide">
+                    <img src="https://wallpaper.dog/large/5509838.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://wallpaperaccess.com/full/945950.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://wallpaperaccess.com/full/109672.jpg" alt="">
+                </div>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -39,13 +48,24 @@
     <style>
         .swiper {
             width: 100%;
-            height: 500px;
+            /*padding-top: 50px;*/
+            /*padding-bottom: 50px;*/
         }
-        .swiper-slide img{
-            min-width: 100%;
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            display: flex;
+        }
+
+        .swiper-slide img {
+            display: block;
             max-width: 100%;
-            min-height: 100%;
             max-height: 100%;
+            align-self: center;
+
         }
     </style>
 @endsection
@@ -54,25 +74,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'vertical',
+        var swiper = new Swiper('.swiper', {
+            effect: 'coverflow',
+            centeredSlides: true,
+            slidesPerView: 3,
+            grabCursor: true,
             loop: true,
-
-            // If we need pagination
+            // slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
             pagination: {
                 el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
             },
         });
     </script>
