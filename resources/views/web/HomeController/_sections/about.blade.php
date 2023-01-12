@@ -8,7 +8,7 @@
 
         <div class="row">
             <div class="col-lg-4">
-                <img src="{{ asset('image/wreck-it-ralph.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('image/wreck-it-ralph.jpg') }}" class="img-fluid rounded-circle" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
                 <h3>UI/UX Designer &amp; Web Developer.</h3>
