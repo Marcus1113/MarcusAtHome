@@ -11,8 +11,8 @@
     <!-- https://bootstrapmade.com/free-html-bootstrap-template-my-resume/#download -->
 
     <!-- Favicons -->
-    <link href="{{ asset('image/favicon/favicon.ico') }}" rel="icon">
-    <link href="{{ asset('image/favicon/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('image/logo/koenigsegg-ghost-logo-2.png') }}" rel="icon">
+    <link href="{{ asset('image/favicon/koenigsegg-ghost-logo-2.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
