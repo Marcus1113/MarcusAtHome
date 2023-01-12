@@ -7,10 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Marcus At Home</title>
 
-
     <!-- Source -->
-{{--    https://bootstrapmade.com/free-html-bootstrap-template-my-resume/#download--}}
-
+    <!-- https://bootstrapmade.com/free-html-bootstrap-template-my-resume/#download -->
 
     <!-- Favicons -->
     <link href="{{ asset('image/favicon.png') }}" rel="icon">
@@ -44,7 +42,6 @@
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
 
     {{-- Jquery --}}
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
