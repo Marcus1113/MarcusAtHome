@@ -32,8 +32,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ../public/index.php
-          destination: ./_site
+          source: ./
+          destination: ./public/index.php
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
