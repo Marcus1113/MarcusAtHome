@@ -3,7 +3,12 @@
 
         <div class="section-title">
             <h2>About</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>
+                I’m Marcus Chan, {{ config('application.age') }} years old. IT graduate from Sunway University. I enjoy web development since my studies in university.
+                Hence, I would appreciate if you would allow me to contribute as much as possible in your team.
+                I would value the skills you provide as I’m open to change and adaptation to real world scenarios.
+                Please see my resume for my additional personal information.
+                .</p>
         </div>
 
         <div class="row">
@@ -11,26 +16,25 @@
                 <img src="{{ asset('image/wreck-it-ralph.jpg') }}" class="img-fluid rounded-circle" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
-                <h3>UI/UX Designer &amp; Web Developer.</h3>
+                <h3>Web Developer.</h3>
                 <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    2.6 years experience in web development
                 </p>
                 <div class="row">
                     <div class="col-lg-6">
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 November 1997</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.marcusathome.com</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>011-1668 7600</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kuala Lumpur, Malaysia</span></li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{{ config('application.age') }}</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>marcus111@live.com.my</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span class="badge bg-success">Available</span></li>
                         </ul>
                     </div>
                 </div>
