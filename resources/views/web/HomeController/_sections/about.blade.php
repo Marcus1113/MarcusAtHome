@@ -27,7 +27,7 @@
                     <div class="col-lg-6">
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 November 1997</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.marcusathome.cf:89</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a target="_blank" href="www.marcusathome.cf:89">www.marcusathome.cf</a></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>011-1668 7600</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kuala Lumpur, Malaysia</span></li>
                         </ul>
