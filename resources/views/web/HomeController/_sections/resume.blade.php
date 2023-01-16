@@ -42,8 +42,8 @@
                     <ul>
                         <li>Lead in the development and implementation of web application projects.</li>
                         <li>Developed and maintained numerous websites and web applications.</li>
-                        <li>Managed up to 17 projects, 5 web applications and 12 websites.</li>
-                        <li>Provided trainings to interns and team members.</li>
+{{--                        <li>Managed up to 17 projects, 5 web applications and 12 websites.</li>--}}
+{{--                        <li>Provided trainings to interns and team members.</li>--}}
                     </ul>
                 </div>
                 <div class="resume-item">

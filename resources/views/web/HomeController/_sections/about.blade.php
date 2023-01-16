@@ -4,11 +4,14 @@
         <div class="section-title">
             <h2>About</h2>
             <p>
-                I’m Marcus Chan, {{ config('application.age') }} years old. IT graduate from Sunway University. I enjoy web development since my studies in university.
-                Hence, I would appreciate if you would allow me to contribute as much as possible in your team.
-                I would value the skills you provide as I’m open to change and adaptation to real world scenarios.
-                Please see my resume for my additional personal information.
-                .</p>
+{{--                I’m Marcus Chan, {{ config('application.age') }} years old. IT graduate from Sunway University. I enjoy web development since my studies in university.--}}
+{{--                Hence, I would appreciate if you would allow me to contribute as much as possible in your team.--}}
+{{--                I would value the skills you provide as I’m open to change and adaptation to real world scenarios.--}}
+{{--                Please see my resume for my additional personal information.--}}
+
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
+                Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
         </div>
 
         <div class="row">
